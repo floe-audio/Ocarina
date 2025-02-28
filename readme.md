@@ -1,7 +1,10 @@
-Ocarina
--------
+# Ocarina
 
-Edited to support the Floe format by Sam Windell.
+Very basic multisampled ocarina. It's been packaged for Floe but is otherwise unchanged.
+
+---
+
+Original README.txt:
 
 Version 2024-10-02
 

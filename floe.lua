@@ -3,6 +3,7 @@ local library = floe.new_library({
     tagline = "A simple ocarina",
     author = "Freepats",
     library_url = "http://freepats.zenvoid.org/Wind/ocarina.html#Ocarina1",
+    background_image_path = "picture.jpg",
 })
 
 local instrument = floe.new_instrument(library, {
