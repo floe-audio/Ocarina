@@ -1,4 +1,4 @@
-# Freepats - Ocarina
+# FreePats - Ocarina
 
 Very basic multisampled ocarina. It's been packaged for Floe but is otherwise unchanged.
 
