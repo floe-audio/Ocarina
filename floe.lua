@@ -1,8 +1,9 @@
 local library = floe.new_library({
     name = "Ocarina",
     tagline = "A basic ocarina",
+    library_url = "https://github.com/Floe-Project/Ocarina",
     author = "FreePats",
-    library_url = "http://freepats.zenvoid.org/Wind/ocarina.html#Ocarina1",
+    author_url = "http://freepats.zenvoid.org/Wind/ocarina.html#Ocarina1",
     background_image_path = "picture.jpg",
 })
 
@@ -32,7 +33,7 @@ floe.add_region(instrument, {
 })
 floe.add_region(instrument, {
     file = {
-        path = "samples/D5_01.flac",
+        path = "samplesfD5_01.flac",
         root_key = 74,
         loop = { 23402, 75313, 0, false },
     },
