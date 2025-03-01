@@ -1,6 +1,7 @@
 local library = floe.new_library({
     name = "Ocarina",
-    tagline = "A basic ocarina",
+    tagline = "Basic ocarina sustains",
+    description = "The free, public domain Ocarina from FreePats ported to Floe.",
     library_url = "https://github.com/Floe-Project/Ocarina",
     author = "FreePats",
     author_url = "http://freepats.zenvoid.org/Wind/ocarina.html#Ocarina1",
