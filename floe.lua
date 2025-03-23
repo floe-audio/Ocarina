@@ -16,133 +16,181 @@ floe.add_region(instrument, {
     path = "samples/F#4.flac",
     root_key = 66,
     loop = {
-        start_frame = 14805,
-        end_frame = 45027,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 14805,
+            end_frame = 45027,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 0, 70 },
+    trigger_criteria = {
+        key_range = { 0, 70 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/C#5_01.flac",
     root_key = 73,
     loop = {
-        start_frame = 39558,
-        end_frame = 150554,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 39558,
+            end_frame = 150554,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 70, 74 },
+    trigger_criteria = {
+        key_range = { 70, 74 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/D5_01.flac",
     root_key = 74,
     loop = {
-        start_frame = 23402,
-        end_frame = 75313,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 23402,
+            end_frame = 75313,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 74, 76 },
+    trigger_criteria = {
+        key_range = { 74, 76 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/E5_01.flac",
     root_key = 76,
     loop = {
-        start_frame = 16668,
-        end_frame = 63256,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 16668,
+            end_frame = 63256,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 76, 77 },
+    trigger_criteria = {
+        key_range = { 76, 77 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/F5_01.flac",
     root_key = 77,
     loop = {
-        start_frame = 82197,
-        end_frame = 206245,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 82197,
+            end_frame = 206245,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 77, 78 },
+    trigger_criteria = {
+        key_range = { 77, 78 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/F#5_01.flac",
     root_key = 78,
     loop = {
-        start_frame = 64197,
-        end_frame = 168032,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 64197,
+            end_frame = 168032,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 78, 79 },
+    trigger_criteria = {
+        key_range = { 78, 79 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/G5_01.flac",
     root_key = 79,
     loop = {
-        start_frame = 36058,
-        end_frame = 163114,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 36058,
+            end_frame = 163114,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 79, 80 },
+    trigger_criteria = {
+        key_range = { 79, 80 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/G#5_01.flac",
     root_key = 80,
     loop = {
-        start_frame = 52531,
-        end_frame = 184023,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 52531,
+            end_frame = 184023,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 80, 81 },
+    trigger_criteria = {
+        key_range = { 80, 81 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/A5_01.flac",
     root_key = 81,
     loop = {
-        start_frame = 70297,
-        end_frame = 218776,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 70297,
+            end_frame = 218776,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 81, 82 },
+    trigger_criteria = {
+        key_range = { 81, 82 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/A#5_01.flac",
     root_key = 82,
     loop = {
-        start_frame = 87003,
-        end_frame = 193433,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 87003,
+            end_frame = 193433,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 82, 83 },
+    trigger_criteria = {
+        key_range = { 82, 83 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/B5_01.flac",
     root_key = 83,
     loop = {
-        start_frame = 13758,
-        end_frame = 81514,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 13758,
+            end_frame = 81514,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 83, 86 },
+    trigger_criteria = {
+        key_range = { 83, 86 },
+    },
 })
 floe.add_region(instrument, {
     path = "samples/E6.flac",
     root_key = 88,
     loop = {
-        start_frame = 3797,
-        end_frame = 62613,
-        crossfade = 0,
-        mode = "standard",
+        builtin_loop = {
+            start_frame = 3797,
+            end_frame = 62613,
+            crossfade = 0,
+            mode = "standard",
+        },
     },
-    key_range = { 86, 128 },
+    trigger_criteria = {
+        key_range = { 86, 128 },
+    },
 })
 
 
