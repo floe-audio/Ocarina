@@ -11,6 +11,7 @@ local library = floe.new_library({
 
 local instrument = floe.new_instrument(library, {
     name = "Ocarina",
+    description = "Basic looping ocarnia sustains.",
     tags = { "acoustic", "wind", "folk", "solo", "wood", "cinematic", "world" },
 })
 
