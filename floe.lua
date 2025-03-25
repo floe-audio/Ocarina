@@ -6,10 +6,12 @@ local library = floe.new_library({
     author = "FreePats",
     author_url = "http://freepats.zenvoid.org/Wind/ocarina.html#Ocarina1",
     background_image_path = "picture.jpg",
+    icon_image_path = "icon.png",
 })
 
 local instrument = floe.new_instrument(library, {
     name = "Ocarina",
+    tags = { "acoustic", "wind", "folk", "solo", "wood", "cinematic", "world" },
 })
 
 floe.add_region(instrument, {
