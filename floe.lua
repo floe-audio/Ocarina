@@ -1,3 +1,5 @@
+floe.set_required_floe_version("0.12.1")
+
 local library = floe.new_library({
     name = "Ocarina",
     tagline = "Basic ocarina sustains",
@@ -13,6 +15,11 @@ local instrument = floe.new_instrument(library, {
     name = "Ocarina",
     description = "Basic looping ocarnia sustains.",
     tags = { "acoustic", "wind", "folk", "solo", "wood", "cinematic", "world" },
+})
+
+floe.add_named_key_range(instrument, {
+    name = "Natural Range",
+    key_range = { 66, 89 },
 })
 
 floe.add_region(instrument, {
