@@ -7,8 +7,8 @@ local library = floe.new_library({
     library_url = "https://github.com/Floe-Project/Ocarina",
     author = "Floe Ports",
     author_url = "http://freepats.zenvoid.org/Wind/ocarina.html#Ocarina1",
-    background_image_path = "picture.jpg",
-    icon_image_path = "icon.png",
+    background_image_path = "Images/picture.jpg",
+    icon_image_path = "Images/icon.png",
     minor_version = 2,
 })
 
@@ -24,7 +24,7 @@ floe.add_named_key_range(instrument, {
 })
 
 floe.add_region(instrument, {
-    path = "samples/F#4.flac",
+    path = "Samples/F#4.flac",
     root_key = 66,
     loop = {
         builtin_loop = {
@@ -39,7 +39,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/C#5_01.flac",
+    path = "Samples/C#5_01.flac",
     root_key = 73,
     loop = {
         builtin_loop = {
@@ -54,7 +54,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/D5_01.flac",
+    path = "Samples/D5_01.flac",
     root_key = 74,
     loop = {
         builtin_loop = {
@@ -69,7 +69,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/E5_01.flac",
+    path = "Samples/E5_01.flac",
     root_key = 76,
     loop = {
         builtin_loop = {
@@ -84,7 +84,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/F5_01.flac",
+    path = "Samples/F5_01.flac",
     root_key = 77,
     loop = {
         builtin_loop = {
@@ -99,7 +99,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/F#5_01.flac",
+    path = "Samples/F#5_01.flac",
     root_key = 78,
     loop = {
         builtin_loop = {
@@ -114,7 +114,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/G5_01.flac",
+    path = "Samples/G5_01.flac",
     root_key = 79,
     loop = {
         builtin_loop = {
@@ -129,7 +129,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/G#5_01.flac",
+    path = "Samples/G#5_01.flac",
     root_key = 80,
     loop = {
         builtin_loop = {
@@ -144,7 +144,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/A5_01.flac",
+    path = "Samples/A5_01.flac",
     root_key = 81,
     loop = {
         builtin_loop = {
@@ -159,7 +159,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/A#5_01.flac",
+    path = "Samples/A#5_01.flac",
     root_key = 82,
     loop = {
         builtin_loop = {
@@ -174,7 +174,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/B5_01.flac",
+    path = "Samples/B5_01.flac",
     root_key = 83,
     loop = {
         builtin_loop = {
@@ -189,7 +189,7 @@ floe.add_region(instrument, {
     },
 })
 floe.add_region(instrument, {
-    path = "samples/E6.flac",
+    path = "Samples/E6.flac",
     root_key = 88,
     loop = {
         builtin_loop = {
