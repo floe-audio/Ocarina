@@ -1,6 +1,8 @@
 # FreePats - Ocarina
 
-Very basic multisampled ocarina. It's been packaged for Floe but is otherwise unchanged.
+Very basic multisampled ocarina. It's been packaged for Floe but is otherwise largely unchanged.
+
+picture.jpg has been modified to better work as a Floe background.
 
 ---
 
