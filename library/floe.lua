@@ -1,4 +1,4 @@
-floe.set_required_floe_version("0.12.1")
+floe.set_required_floe_version("2.0.0")
 
 local library = floe.new_library({
     name = "Ocarina",
