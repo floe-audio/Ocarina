@@ -1,3 +1,7 @@
+-- Copyright 2026 Sam Windell
+-- SPDX-License-Identifier: CC0-1.0
+-- Floe port of Ocarina 20241002.sfz.
+
 floe.set_required_floe_version("2.0.0")
 
 local library = floe.new_library({
@@ -9,7 +13,7 @@ local library = floe.new_library({
     author_url = "http://freepats.zenvoid.org/Wind/ocarina.html#Ocarina1",
     background_image_path = "Images/picture.jpg",
     icon_image_path = "Images/icon.png",
-    minor_version = 2,
+    minor_version = 3,
 })
 
 local instrument = floe.new_instrument(library, {
@@ -203,6 +207,5 @@ floe.add_region(instrument, {
         key_range = { 86, 128 },
     },
 })
-
 
 return library
